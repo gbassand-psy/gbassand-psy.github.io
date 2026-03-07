@@ -1,11 +1,6 @@
 ---
-title: 'Services'
-description: 'We offer a range of services to help your business'
-intro_image: "images/illustrations/reading.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: false
+title: "Prestations"
+description: "Consultations individuelles, coaching psychologique et entretiens de soutien — un accompagnement adapté à chaque situation."
 ---
 
-# Services that grow with your business
-
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+Chaque parcours est unique. Je propose plusieurs formes d'accompagnement selon vos besoins et vos objectifs, en présentiel à Lausanne ou en ligne.

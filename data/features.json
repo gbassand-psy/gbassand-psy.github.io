@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "title": "Écoute et bienveillance",
+    "description": "Un espace confidentiel et respectueux, centré sur votre rythme et vos besoins.",
+    "icon": "images/features/ecoute.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "title": "Approche scientifique",
+    "description": "Des outils issus de la recherche en psychologie — humaniste, cognitivo-comportementale et psychologie positive.",
+    "icon": "images/features/science.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "Ressources et potentiel",
+    "description": "Une conviction profonde en la capacité de chaque personne à avancer et à se développer.",
+    "icon": "images/features/potentiel.svg"
   }
 ]

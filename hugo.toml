@@ -11,7 +11,6 @@ theme = 'hugo-serif-theme'
     min = "0.55.0"
 
 [params]
-  # In most cases you will only want to set the google_analytics_id OR the google_tag_manager_id. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
   google_analytics_id = ""
   google_tag_manager_id = ""
   favicon = "favicon-32x32.svg"
@@ -35,16 +34,16 @@ theme = 'hugo-serif-theme'
     base = "Source Sans Pro"
 
   [params.colors]
-    primary = "#f24088"
+    primary = "#4A7C6F"
     black = "#2f2f41"
     white = "#ffffff"
-    white_offset = "#f6f7ff"
+    white_offset = "#f8f7f4"
     grey = "#5C5A5A"
 
   [params.seo]
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
-    meta_og_image = "https://www.zerostatic.io/theme/hugo-serif/hugo-serif-screenshot.png"
+    meta_twitter_site = ""
+    meta_twitter_creator = ""
+    meta_og_image = "https://enso-psychologie.ch/images/og-image.png"
 
   [params.services]
     summary_truncate = 120 # How many characters to include in the summary of the services before truncating
@@ -53,37 +52,42 @@ theme = 'hugo-serif-theme'
     summary_large_truncate = 120 # How many characters to include in the summary of the team bios (large layout) before truncating
 
   [params.footer]
-    copyright_text = 'Free Hugo theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+    copyright_text = '© Guillaume Bassand – ENSŌ Psychologie'
 
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Services"
+    name = "Prestations"
     url = "/services/"
     weight = 1
 
   [[menu.main]]
-    name = "Team"
-    url = "/team/"
-    weight = 2
-
-  [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 2
 
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 3
 
   # Footer Menu
   [[menu.footer]]
-    name = "Home"
+    name = "Accueil"
     url = "/"
     weight = 1
 
   [[menu.footer]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-    weight = 2
+    weight = 3
+
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

@@ -1,52 +1,24 @@
 ---
-title: 'About'
-date: 2018-02-22T17:01:34+07:00
+title: "À propos"
+description: "Guillaume Bassand, psychologue — approche, formation et valeurs."
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+## Guillaume Bassand, psychologue
 
-![About Us](/images/smartworks-coworking-cW4lLTavU80-unsplash.jpg)
+Guillaume Bassand est psychologue diplômé. À travers ENSŌ Psychologie, il propose un accompagnement fondé sur les approches humanistes, cognitivo-comportementales et de psychologie positive, s'appuyant sur une formation universitaire et une pratique rigoureuse.
 
-## Ne verba patulosque numen vix libet
+Sa pratique s'inscrit dans un cadre professionnel exigeant, en lien avec des associations et réseaux reconnus en Suisse et à l'international — notamment la FSP (Fédération Suisse des Psychologues) et l'AVP (Association Vaudoise des Psychologues) — favorisant une actualisation continue des connaissances et des pratiques.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+## Pourquoi ENSŌ ?
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+Dans la philosophie zen, le cercle ENSŌ naît d'un geste unique, d'une respiration continue. Plutôt que de rechercher la perfection, il révèle la richesse de l'instant présent et la grâce de l'imperfection.
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+Nous nous inspirons de cet idéal pour proposer un accompagnement qui respecte chaque personne dans son authenticité, valorise son unicité et soutient son évolution à son propre rythme.
 
-## Postquam tamen
+## Valeurs
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+**Respect et confidentialité** — Un cadre confidentiel et sécurisant pour une parole libre.
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+**Approche fondée sur la science** — Des méthodes et outils actualisés, pragmatiques et adaptés.
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+**Ressources et potentiel** — Une conviction profonde en la capacité de chaque personne à se développer et à renforcer ses ressources.
