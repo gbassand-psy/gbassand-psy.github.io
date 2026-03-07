@@ -7,3 +7,9 @@ intro_image_absolute: true # makes the image use css position: absolute; so it l
 intro_image_absolute_offset: "auto auto -100px -80px" # used to tweak the positioning of the absolute image if enabled above
 intro_image_hide_on_mobile: true
 ---
+
+# Trouver son souffle. Comprendre. Avancer.
+
+ENSŌ Psychologie est un espace de soutien psychologique, en ligne ou en présentiel, dédié à l'accompagnement, au conseil et au développement personnel. Il s'adresse aux personnes traversant une période difficile, ou souhaitant prendre du recul et se développer.
+
+Mon approche est humaine, structurée et centrée sur les ressources, en m'appuyant sur des outils pratiques issus de la recherche scientifique.

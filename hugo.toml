@@ -62,7 +62,7 @@ theme = 'hugo-serif-theme'
     weight = 1
 
   [[menu.main]]
-    name = "About"
+    name = "À propos"
     url = "/about/"
     weight = 2
 
@@ -78,13 +78,13 @@ theme = 'hugo-serif-theme'
     weight = 1
 
   [[menu.footer]]
-    name = "About"
-    url = "/about/"
+    name = "Prestations"
+    url = "/services/"
     weight = 2
 
   [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
+    name = "À propos"
+    url = "/about/"
     weight = 3
 
   [[menu.footer]]
