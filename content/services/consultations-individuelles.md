@@ -3,25 +3,33 @@ title: "Consultations individuelles"
 date: 2026-03-07
 weight: 1
 featured: true
-icon: "images/services/consultation.svg"
-summary: "Écoute active et bienveillante, exploration et outils concrets pour clarifier une situation, traverser une période de vie ou soutenir un travail de développement personnel."
+icon: ""
+summary: "Un espace d'écoute et de réflexion pour traverser une période difficile, clarifier une situation ou soutenir un travail de développement personnel."
 ---
 
-## Consultations individuelles
+## Pour qui ?
 
-Un espace confidentiel et structuré pour explorer ce que vous traversez, à votre rythme.
+Pour les personnes qui traversent une période questionnante ou éprouvante — une transition de vie, une perte, un changement, un moment de doute. Mais aussi pour celles qui vont bien et souhaitent simplement prendre du recul, mieux se comprendre, ou travailler sur elles-mêmes de façon structurée.
 
-Les consultations individuelles s'adressent aux personnes traversant une période difficile ou questionnante — transition de vie, stress, perte, changement — ainsi qu'à celles qui souhaitent prendre du recul, mieux comprendre leurs émotions ou clarifier une situation personnelle ou professionnelle.
+## Ce que nous faisons ensemble
 
-### Ce que nous travaillons ensemble
+Chaque consultation est un espace confidentiel pour explorer ce que vous vivez, à votre rythme. Selon votre situation, nous pouvons travailler sur :
 
-- Transitions de vie et changements
-- Gestion du stress et du sommeil
-- Clarification d'une situation personnelle ou professionnelle
-- Développement personnel et connaissance de soi
+- La compréhension de vos émotions et de vos réactions
+- La gestion du stress, de l'anxiété ou des difficultés de sommeil
+- Les transitions de vie — professionnelles, familiales, personnelles
+- Le développement de vos ressources et de votre connaissance de vous-même
 
-### Cadre et modalités
+## Mon approche
 
-Les entretiens sont proposés en présentiel à Lausanne ou en ligne. Ils ne constituent pas une psychothérapie et ne visent pas à poser un diagnostic ou traiter une problématique médicale. Les séances ne sont pas remboursées dans le cadre de la LAMal.
+Je m'appuie sur des outils issus des approches humanistes, cognitivo-comportementales et de la psychologie positive. L'objectif n'est pas de poser un diagnostic, mais de vous accompagner concrètement vers plus de clarté et de mieux-être.
 
-Si un autre type de prise en charge s'avère plus adapté, une orientation vers un spécialiste pourra être discutée ensemble.
+## Cadre et tarifs
+
+- **Durée :** 60 minutes
+- **Tarif :** 150 CHF
+- **En présentiel** à Lausanne
+- **En ligne** — règlement par facture avant la séance, confirmée dès réception du paiement
+- Les séances ne sont pas prises en charge par la LAMal. Certaines assurances complémentaires remboursent partiellement — renseignez-vous auprès de votre caisse.
+
+[Prendre contact](/contact)

@@ -3,23 +3,33 @@ title: "Coaching psychologique"
 date: 2026-03-07
 weight: 2
 featured: true
-icon: "images/services/coaching.svg"
-summary: "Accompagnement orienté objectifs, destiné aux personnes souhaitant renforcer leurs ressources, clarifier une direction ou soutenir un projet personnel ou professionnel."
+icon: ""
+summary: "Un accompagnement orienté objectifs pour renforcer vos ressources, clarifier une direction et avancer concrètement."
 ---
 
-## Coaching psychologique
+## Pour qui ?
 
-Un accompagnement structuré pour avancer concrètement vers vos objectifs.
+Pour les personnes qui ont un objectif clair ou en cours de définition — personnel ou professionnel — et qui souhaitent avancer de façon structurée. Le coaching psychologique s'adresse aussi aux personnes qui se sentent bloquées dans une situation précise et cherchent des outils concrets pour bouger.
 
-Le coaching psychologique s'adresse aux personnes qui souhaitent mobiliser leurs ressources, clarifier une direction ou soutenir un projet personnel ou professionnel. Il combine rigueur scientifique et approche humaine, avec des outils issus de la psychologie positive et des thérapies cognitivo-comportementales.
+## Ce que nous faisons ensemble
 
-### Ce que nous travaillons ensemble
+Le coaching psychologique combine la rigueur scientifique de la psychologie avec une approche orientée action. Selon votre situation, nous pouvons travailler sur :
 
-- Renforcement des ressources personnelles
-- Résolution de problèmes et prise de décision
-- Clarification d'objectifs personnels ou professionnels
-- Gestion de la performance et prévention du burnout
+- La clarification de vos objectifs et de vos priorités
+- Le renforcement de vos ressources personnelles
+- La prise de décision et la résolution de problèmes
+- La gestion de la performance et la prévention de l'épuisement
 
-### Cadre et modalités
+## Mon approche
 
-Les séances sont proposées en présentiel à Lausanne ou en ligne, à un rythme adapté à vos besoins et à votre agenda.
+Chaque séance est structurée autour de votre situation concrète. J'utilise des outils issus de la psychologie positive, des thérapies cognitivo-comportementales et de l'entretien motivationnel — adaptés à votre rythme et à vos besoins.
+
+## Cadre et tarifs
+
+- **Durée :** 60 minutes
+- **Tarif :** 150 CHF
+- **En présentiel** à Lausanne
+- **En ligne** — règlement par facture avant la séance, confirmée dès réception du paiement
+- Les séances ne sont pas prises en charge par la LAMal. Certaines assurances complémentaires remboursent partiellement — renseignez-vous auprès de votre caisse.
+
+[Prendre contact](/contact)
