@@ -1,0 +1,127 @@
+@import 'enso-variables';
+
+// =============================================
+// ENSŌ Psychologie — Custom Overrides
+// =============================================
+
+
+// ---------------------------------------------
+// Global — Liens
+// ---------------------------------------------
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+// ---------------------------------------------
+// Global — Footer
+// ---------------------------------------------
+
+$footer-background-color: $enso-ink;
+$sub-footer-background-color: darken($enso-ink, 5%);
+
+
+// ---------------------------------------------
+// Homepage — Hero (intro)
+// ---------------------------------------------
+
+.intro {
+  padding-top: 80px;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 120px;
+  }
+
+  p a {
+    color: $enso-ink;
+    border-bottom: 1px solid $enso-sage;
+
+    &:hover {
+      color: $enso-sage;
+      border-bottom-color: transparent;
+    }
+  }
+}
+
+.intro-image-absolute {
+  position: absolute;
+  width: 50vw;
+  top: 50%;
+  right: -2rem;
+  transform: translateY(-50%);
+  opacity: 0.80;
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}
+
+
+// ---------------------------------------------
+// Homepage — Strip : Prestations
+// ---------------------------------------------
+
+#strip-services {
+  background-color: $enso-cream;
+  border-top: 1px solid darken($enso-cream, 8%);
+
+  h2 a {
+    color: $enso-ink;
+
+    &:hover {
+      color: $enso-sage;
+    }
+  }
+
+  p a {
+    color: $enso-ink;
+    border-bottom: 1px solid $enso-sage;
+
+    &:hover {
+      color: $enso-sage;
+      border-bottom-color: transparent;
+    }
+  }
+}
+
+
+// ---------------------------------------------
+// Homepage — Strip : Audience
+// ---------------------------------------------
+
+.strip-audience {
+  background-color: $enso-beige;
+
+  .feature {
+    text-align: left;
+    align-items: flex-start;
+
+    .feature-content {
+      margin-top: 0.75rem;
+    }
+  }
+
+  .feature-title {
+    font-size: 1.15rem;
+    color: $enso-ink;
+  }
+
+  .feature-content {
+    text-align: left;
+
+    p a {
+      color: $enso-ink;
+      border-bottom: 1px solid $enso-sage;
+
+      &:hover {
+        color: $enso-sage;
+        border-bottom-color: transparent;
+      }
+    }
+  }
+}

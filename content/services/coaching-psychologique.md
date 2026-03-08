@@ -2,6 +2,7 @@
 title: "Coaching psychologique"
 date: 2026-03-07
 weight: 2
+featured: true
 icon: "images/services/coaching.svg"
 summary: "Accompagnement orienté objectifs, destiné aux personnes souhaitant renforcer leurs ressources, clarifier une direction ou soutenir un projet personnel ou professionnel."
 ---

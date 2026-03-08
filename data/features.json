@@ -1,17 +1,17 @@
 [
   {
-    "title": "Écoute et bienveillance",
-    "description": "Un espace confidentiel et respectueux, centré sur votre rythme et vos besoins.",
-    "icon": "images/features/ecoute.svg"
+    "title": "Vous traversez une période difficile",
+    "description": "Vous cherchez un espace pour souffler, faire le point, comprendre ce qui se passe — sans jugement et à votre rythme.",
+    "icon": ""
   },
   {
-    "title": "Approche scientifique",
-    "description": "Des outils issus de la recherche en psychologie — humaniste, cognitivo-comportementale et psychologie positive.",
-    "icon": "images/features/science.svg"
+    "title": "Vous êtes parent",
+    "description": "Vous voyez votre enfant ou adolescent se poser des questions et cherchez quelqu'un de qualifié à qui faire confiance pour l'accompagner.",
+    "icon": ""
   },
   {
-    "title": "Ressources et potentiel",
-    "description": "Une conviction profonde en la capacité de chaque personne à avancer et à se développer.",
-    "icon": "images/features/potentiel.svg"
+    "title": "Vous vous sentez bloqué",
+    "description": "Dans une situation personnelle ou professionnelle, vous souhaitez avancer avec un accompagnement structuré et bienveillant.",
+    "icon": ""
   }
 ]

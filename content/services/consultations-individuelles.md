@@ -2,6 +2,7 @@
 title: "Consultations individuelles"
 date: 2026-03-07
 weight: 1
+featured: true
 icon: "images/services/consultation.svg"
 summary: "Écoute active et bienveillante, exploration et outils concrets pour clarifier une situation, traverser une période de vie ou soutenir un travail de développement personnel."
 ---

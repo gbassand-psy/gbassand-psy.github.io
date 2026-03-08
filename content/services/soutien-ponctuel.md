@@ -2,6 +2,7 @@
 title: "Entretiens de soutien ponctuels"
 date: 2026-03-07
 weight: 3
+featured: true
 icon: "images/services/soutien.svg"
 summary: "Entretiens ponctuels ou de courte durée, destinés à offrir un espace de parole et de soutien dans un moment précis."
 ---
