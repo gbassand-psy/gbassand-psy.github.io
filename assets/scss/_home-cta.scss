@@ -1,0 +1,45 @@
+// ---------------------------------------------
+// Homepage — Strip : CTA final
+// ---------------------------------------------
+
+#strip-cta {
+  background-color: $enso-sage;
+  padding: 80px 0;
+
+  .cta-tagline {
+    color: $enso-white;
+    font-family: $enso-font-heading;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cta-button-main {
+    background-color: $enso-white;
+    color: $enso-sage;
+    border: none;
+
+    &:hover {
+      background-color: $enso-cream;
+      text-decoration: none;
+    }
+  }
+
+  .cta-button-secondary {
+    background-color: transparent;
+    color: $enso-white;
+    border: 2px solid $enso-white;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      text-decoration: none;
+    }
+  }
+}

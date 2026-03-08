@@ -1,0 +1,35 @@
+// ---------------------------------------------
+// Homepage — Strip : Audience
+// ---------------------------------------------
+
+.strip-audience {
+  background-color: $enso-beige;
+
+  .feature {
+    text-align: left;
+    align-items: flex-start;
+
+    .feature-content {
+      margin-top: 0.75rem;
+    }
+  }
+
+  .feature-title {
+    font-size: 1.15rem;
+    color: $enso-ink;
+  }
+
+  .feature-content {
+    text-align: left;
+
+    p a {
+      color: $enso-ink;
+      border-bottom: 1px solid $enso-sage;
+
+      &:hover {
+        color: $enso-sage;
+        border-bottom-color: transparent;
+      }
+    }
+  }
+}

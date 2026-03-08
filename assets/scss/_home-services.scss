@@ -1,0 +1,26 @@
+// ---------------------------------------------
+// Homepage — Strip : Prestations
+// ---------------------------------------------
+
+#strip-services {
+  background-color: $enso-cream;
+  border-top: 1px solid darken($enso-cream, 8%);
+
+  h2 a {
+    color: $enso-ink;
+
+    &:hover {
+      color: $enso-sage;
+    }
+  }
+
+  p a {
+    color: $enso-ink;
+    border-bottom: 1px solid $enso-sage;
+
+    &:hover {
+      color: $enso-sage;
+      border-bottom-color: transparent;
+    }
+  }
+}
