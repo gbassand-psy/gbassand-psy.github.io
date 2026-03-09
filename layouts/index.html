@@ -37,23 +37,23 @@
 </div>
 {{end}}
 
-{{with .Site.Data.about}}
+{{with .Site.Data.home_about}}
 <div id="strip-about" class="strip">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center align-items-center">
       <div class="col-12 col-md-5 mb-4 mb-md-0">
-        <img src="{{ .photo | relURL }}" alt="{{ .title }}" class="about-photo"/>
+        <img src="{{ .photo | relURL }}" alt="{{ .name }}" class="about-photo"/>
       </div>
       <div class="col-12 col-md-6 offset-md-1">
         <div class="about-text-card shadow-sm">
-          <h2 class="about-name">{{ .title }}</h2>
+          <h2 class="about-name">{{ .name }}</h2>
           <p class="about-role">{{ .role }}</p>
           <p class="about-tagline">{{ .tagline }}</p>
           <p class="about-bio">{{ .bio }}</p>
           <p class="about-affiliations">
             Membre :
             {{ range .affiliations }}
-              <span>{{ . }}</span>
+              <span>{{ .name }}</span>
             {{ end }}
           </p>
           <a href="{{ .link_url }}" class="about-link">{{ .link_label }}</a>

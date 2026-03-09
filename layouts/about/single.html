@@ -1,0 +1,94 @@
+{{ define "body_classes" }}page-about{{ end }}
+
+{{ define "main" }}
+
+{{ $about := .Site.Data.home_about }}
+
+{{/* Hero */}}
+<div id="about-hero">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-md-5 mb-4 mb-md-0">
+        <img
+          src="{{ $about.photo | relURL }}"
+          alt="{{ $about.name }}"
+          class="about-photo-large"
+        />
+      </div>
+      <div class="col-12 col-md-6 offset-md-1">
+        <h1 class="about-page-name">{{ $about.name }}</h1>
+        <p class="about-page-role">{{ $about.role }}</p>
+        <p class="about-page-tagline">{{ $about.tagline }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{/* Section : Qui je suis */}}
+{{ with .Resources.Get "intro.md" }}
+<div id="about-intro" class="about-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <h2 class="about-section-title">Qui suis-je ?</h2>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{/* Section : Mon approche */}}
+{{ with .Resources.Get "approche.md" }}
+<div id="about-approach" class="about-section about-section-alt">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <h2 class="about-section-title">Mon approche</h2>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{/* Section : Pourquoi ENSŌ ? */}}
+{{ with .Resources.Get "enso.md" }}
+<div id="about-enso" class="about-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <h2 class="about-section-title">Pourquoi ENSŌ ?</h2>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{/* Section : Affiliations */}}
+{{ with .Resources.Get "affiliations.md" }}
+<div id="about-affiliations" class="about-section about-section-alt">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <h2 class="about-section-title">Affiliations</h2>
+        {{ .Content }}
+        <div class="affiliations-logos">
+          {{ range $about.affiliations }}
+          <a href="{{ .url }}" target="_blank" rel="noopener" class="affiliation-logo-link">
+            {{ if .logo }}
+            <img src="{{ .logo | relURL }}" alt="{{ .full }}" class="affiliation-logo" />
+            {{ else }}
+            <span class="affiliation-name-text">{{ .name }}</span>
+            {{ end }}
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ end }}

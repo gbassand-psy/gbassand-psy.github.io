@@ -1,0 +1,109 @@
+// ---------------------------------------------
+// Page : À propos
+// ---------------------------------------------
+
+#about-hero {
+  background-color: $enso-cream;
+  padding: 80px 0 60px;
+  border-bottom: 1px solid darken($enso-cream, 8%);
+
+  .about-photo-large {
+    width: 100%;
+    display: block;
+    clip-path: ellipse(48% 50% at 50% 50%);
+  }
+
+  .about-page-name {
+    font-family: $enso-font-heading;
+    font-size: 2.4rem;
+    color: $enso-ink;
+    margin-bottom: 0.5rem;
+  }
+
+  .about-page-role {
+    color: $enso-stone;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-page-tagline {
+    color: $enso-ink;
+    font-style: italic;
+    line-height: 1.7;
+  }
+}
+
+// Sections alternées
+.about-section {
+  padding: 60px 0;
+  background-color: $enso-white;
+
+  p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: $enso-ink;
+    margin-bottom: 1.2rem;
+  }
+
+  strong {
+    color: $enso-ink;
+  }
+
+  // Liens discrets dans le contenu
+  p a {
+    color: $enso-ink;
+    border-bottom: 1px solid $enso-sage;
+    &:hover {
+      color: $enso-sage;
+      border-bottom-color: transparent;
+    }
+  }
+}
+
+.about-section-alt {
+  background-color: $enso-cream;
+}
+
+.about-section-title {
+  font-family: $enso-font-heading;
+  font-size: 1.8rem;
+  color: $enso-ink;
+  margin-bottom: 1.5rem;
+}
+
+// Logos affiliations
+.affiliations-logos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+
+  .affiliation-logo-link {
+    display: inline-block;
+    opacity: 0.75;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .affiliation-logo {
+    height: 40px;
+    width: auto;
+    filter: grayscale(100%);
+    transition: filter 0.2s ease;
+
+    &:hover {
+      filter: none;
+    }
+  }
+
+  .affiliation-name-text {
+    font-size: 0.9rem;
+    color: $enso-stone;
+    font-weight: 600;
+  }
+}
