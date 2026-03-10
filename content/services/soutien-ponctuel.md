@@ -9,7 +9,7 @@ summary: "Un espace de parole et de soutien pour un moment précis — sans enga
 
 ## Pour qui ?
 
-Pour les personnes qui ont besoin d'un espace de parole à un moment précis, sans nécessairement s'engager dans un suivi régulier. Ces entretiens s'adressent en particulier aux personnes en attente d'une prise en charge thérapeutique — les délais pouvant actuellement atteindre six mois à deux ans en Suisse romande. Ne pas rester seul dans cet intervalle est une priorité.
+Pour les personnes qui ont besoin d'un espace de parole à un moment précis, sans nécessairement s'engager dans un suivi régulier. Ces entretiens s'adressent en particulier aux personnes en attente d'une prise en charge thérapeutique — une attente qui peut sembler longue, et qu'il n'est pas nécessaire de traverser seul.
 
 ## Ce que nous faisons ensemble
 

@@ -1,0 +1,85 @@
+// ---------------------------------------------
+// Page : Contact
+// ---------------------------------------------
+
+#contact-hero {
+  background-color: $enso-cream;
+  padding: 80px 0 60px;
+  border-bottom: 1px solid darken($enso-cream, 8%);
+
+  .contact-page-title {
+    font-family: $enso-font-heading;
+    font-size: 2.4rem;
+    color: $enso-ink;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-intro {
+    p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: $enso-stone;
+    }
+
+    /*a {
+      color: $enso-sage;
+      border-bottom: 1px solid transparent;
+      &:hover { border-bottom-color: $enso-sage; }
+    }*/
+  }
+}
+
+#contact-info {
+  background-color: $enso-white;
+  padding: 80px 0;
+
+  .contact-block {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .contact-label {
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $enso-stone;
+    font-weight: 600;
+  }
+
+  .contact-value {
+    font-size: 1rem;
+    color: $enso-ink;
+    line-height: 1.5;
+  }
+
+  /*a.contact-value {
+    color: $enso-ink;
+    border-bottom: 1px solid $enso-sage;
+    &:hover {
+      color: $enso-sage;
+      border-bottom-color: transparent;
+    }
+  }*/
+
+  .contact-directions-btn {
+    margin-top: 1rem;
+    align-self: flex-start;
+  }
+
+  .contact-map {
+    border-radius: $enso-radius;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+
+    iframe {
+      display: block;
+    }
+  }
+}

@@ -1,4 +1,6 @@
-email: 'contact@enso-psychologie.ch'
-phone: '077 266 11 22'
-address: 'Lausanne, Vaud - Suisse'
-contact_button_link: 'contact'
+email: contact@enso-psychologie.ch
+phone: "+41 77 266 11 22"
+address: "Avenue de Rumine 35, 1005 Lausanne"
+address_osm_lat: 46.516338
+address_osm_lon: 6.642888
+directions_url: "https://www.openstreetmap.org/directions?to=46.5197%2C6.6323"

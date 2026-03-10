@@ -1,0 +1,18 @@
+{{ define "body_classes" }}page-404{{ end }}
+
+{{ define "main" }}
+<div id="not-found">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-7">
+        <p class="not-found-code">404</p>
+        <h1 class="not-found-title">Cette page n'existe pas.</h1>
+        <p class="not-found-message">Il est possible que le lien ait changé ou que la page ait été déplacée. Vous pouvez retourner à l'accueil ou consulter les disponibilités directement.</p>
+        <div class="not-found-actions">
+          <a href="/" class="btn btn-primary">Retour à l'accueil</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

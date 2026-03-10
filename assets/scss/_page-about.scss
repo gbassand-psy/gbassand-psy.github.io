@@ -50,15 +50,6 @@
     color: $enso-ink;
   }
 
-  // Liens discrets dans le contenu
-  p a {
-    color: $enso-ink;
-    border-bottom: 1px solid $enso-sage;
-    &:hover {
-      color: $enso-sage;
-      border-bottom-color: transparent;
-    }
-  }
 }
 
 .about-section-alt {

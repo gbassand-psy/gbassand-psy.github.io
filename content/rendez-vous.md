@@ -3,7 +3,7 @@ title: "Prendre rendez-vous"
 description: "Réservez une consultation individuelle, un entretien de coaching ou de soutien — en présentiel à Lausanne ou en ligne."
 ---
 
-Vous pouvez réserver directement en ligne via l'agenda ci-dessous. Les créneaux disponibles sont mis à jour en temps réel.
+Choisissez un moment qui vous convient via l'agenda ci-dessous. Si aucun créneau ne correspond à vos disponibilités, n'hésitez pas à me contacter directement.
 
 {{< onedoc >}}
 

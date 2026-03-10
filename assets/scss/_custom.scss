@@ -1,15 +1,15 @@
-@import 'enso-variables';
-@import 'home-services';
-@import 'home-audience';
-@import 'home-about';
-@import 'home-cta';
+@import "enso-variables";
+@import "home-services";
+@import "home-audience";
+@import "home-about";
+@import "home-cta";
 
-@import 'page-about';
+@import "page-about";
+@import "page-contact";
 
 // =============================================
 // ENSŌ Psychologie — Custom Overrides
 // =============================================
-
 
 // ---------------------------------------------
 // Global — Liens
@@ -23,6 +23,14 @@ a {
   }
 }
 
+.content a {
+  text-decoration: none;
+  border-bottom: 1px solid $enso-sage;
+  &:hover {
+    color: $enso-sage;
+    border-bottom-color: transparent;
+  }
+}
 
 // ---------------------------------------------
 // Global — Footer
@@ -30,7 +38,6 @@ a {
 
 $footer-background-color: $enso-ink;
 $sub-footer-background-color: darken($enso-ink, 5%);
-
 
 // ---------------------------------------------
 // Homepage — Hero (intro)
@@ -60,11 +67,74 @@ $sub-footer-background-color: darken($enso-ink, 5%);
   top: 50%;
   right: -2rem;
   transform: translateY(-50%);
-  opacity: 0.80;
+  opacity: 0.8;
 
   @include media-breakpoint-down(md) {
     display: none;
   }
 }
 
+// ---------------------------------------------
+// 404.html
+// ---------------------------------------------
 
+#not-found {
+  background-color: $enso-cream;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-image: url("/images/logo/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .not-found-code {
+    font-family: $enso-font-heading;
+    font-size: 6rem;
+    color: darken($enso-cream, 15%);
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .not-found-title {
+    font-family: $enso-font-heading;
+    font-size: 2rem;
+    color: $enso-ink;
+    margin-bottom: 1.5rem;
+  }
+
+  .not-found-message {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: $enso-stone;
+    margin-bottom: 2.5rem;
+  }
+
+  .not-found-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}
