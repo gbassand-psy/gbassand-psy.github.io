@@ -4,6 +4,7 @@ date: 2026-03-07
 weight: 3
 featured: true
 icon: ""
+description: "Un espace de parole ponctuel, sans engagement de durée — pour un moment difficile ou en attente d'une prise en charge thérapeutique."
 summary: "Un espace de parole et de soutien pour un moment précis — sans engagement sur la durée."
 ---
 

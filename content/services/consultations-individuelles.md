@@ -4,6 +4,7 @@ date: 2026-03-07
 weight: 1
 featured: true
 icon: ""
+description: "Un espace d'écoute individuel pour traverser une période difficile, mieux se comprendre ou travailler sur soi — à Lausanne et en ligne."
 summary: "Un espace d'écoute et de réflexion pour traverser une période difficile, clarifier une situation ou soutenir un travail de développement personnel."
 ---
 

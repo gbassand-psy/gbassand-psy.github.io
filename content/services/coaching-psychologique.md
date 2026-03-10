@@ -4,6 +4,7 @@ date: 2026-03-07
 weight: 2
 featured: true
 icon: ""
+description: "Un accompagnement psychologique orienté objectifs pour renforcer vos ressources et avancer concrètement — à Lausanne et en ligne."
 summary: "Un accompagnement orienté objectifs pour renforcer vos ressources, clarifier une direction et avancer concrètement."
 ---
 
