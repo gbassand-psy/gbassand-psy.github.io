@@ -1,0 +1,18 @@
+<div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <div class="copyright">
+            {{ with .Site.Params.footer.copyright_text }}{{ . | safeHTML }}{{ end }}
+          </div>
+          <div class="legal-links">
+            <a href="/legal/">Mentions légales</a>
+            <span>·</span>
+            <a href="/privacy/">Confidentialité</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

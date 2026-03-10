@@ -39,6 +39,44 @@ a {
 $footer-background-color: $enso-ink;
 $sub-footer-background-color: darken($enso-ink, 5%);
 
+.sub-footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+.legal-links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 10px;
+  font-size: 14px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 0;
+  }
+
+  span {
+    color: $sub-footer-text-color;
+    opacity: 0.4;
+  }
+
+  a {
+    color: $sub-footer-text-color;
+    opacity: 0.7;
+    border-bottom: none !important;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+      border-bottom: none !important;
+    }
+  }
+}
+
 // ---------------------------------------------
 // Homepage — Hero (intro)
 // ---------------------------------------------
