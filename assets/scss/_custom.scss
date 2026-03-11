@@ -99,13 +99,18 @@ $sub-footer-background-color: darken($enso-ink, 5%);
   }
 }
 
+.intro-image {
+  margin-top: 0;
+}
+
 .intro-image-absolute {
   position: absolute;
-  width: 50vw;
+  width: 1100px;
+  height: 1100px;
   top: 50%;
-  right: -2rem;
+  right: -150px;
   transform: translateY(-50%);
-  opacity: 0.8;
+  opacity: 0.12;
 
   @include media-breakpoint-down(md) {
     display: none;

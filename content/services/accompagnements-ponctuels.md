@@ -1,5 +1,5 @@
 ---
-title: "Entretiens de soutien ponctuels"
+title: "Accompagnements ponctuels"
 date: 2026-03-07
 weight: 3
 featured: true
