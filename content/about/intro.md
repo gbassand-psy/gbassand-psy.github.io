@@ -1,1 +1,5 @@
+---
+title: "Qui suis-je ?"
+weight: 1
+---
 Je suis psychologue diplômé, titulaire d'un Master en psychologie d'UniDistance Suisse, université reconnue par la Confédération. Ma pratique s'appuie sur une formation académique rigoureuse et une expérience clinique acquise auprès d'enfants, d'adolescents et d'adultes, dans des contextes variés en Suisse et à l'étranger.

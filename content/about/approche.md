@@ -1,3 +1,7 @@
+---
+title: "Mon approche"
+weight: 2
+---
 Mon travail s'ancre dans trois courants complémentaires de la psychologie scientifique.
 
 L'approche **humaniste** — inspirée de Carl Rogers — place la relation au cœur du travail. L'écoute inconditionnelle, le respect du rythme de chacun et la conviction que chaque personne est capable de croissance sont des fondements de ma pratique.

@@ -26,13 +26,6 @@
       </div>
       {{ end }}
     </div>
-    {{ if .Site.Params.homepage.show_services_button }}
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services/" | relURL }}">View All Services</a>
-      </div>
-    </div>
-    {{ end }}
   </div>
 </div>
 {{end}}
@@ -51,7 +44,7 @@
           <p class="about-tagline">{{ .tagline }}</p>
           <p class="about-bio">{{ .bio }}</p>
           <p class="about-affiliations">
-            Membre :
+            {{ i18n "home_affiliations_label" | strings.FirstUpper }} :
             {{ range .affiliations }}
               <span>{{ .name }}</span>
             {{ end }}

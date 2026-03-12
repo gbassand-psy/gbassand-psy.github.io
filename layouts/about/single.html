@@ -24,56 +24,19 @@
   </div>
 </div>
 
-{{/* Section : Qui je suis */}}
-{{ with .Resources.Get "intro.md" }}
-<div id="about-intro" class="about-section">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-8">
-        <h2 class="about-section-title">Qui suis-je ?</h2>
-        {{ .Content }}
-      </div>
-    </div>
-  </div>
-</div>
-{{ end }}
 
-{{/* Section : Mon approche */}}
-{{ with .Resources.Get "approche.md" }}
-<div id="about-approach" class="about-section about-section-alt">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-8">
-        <h2 class="about-section-title">Mon approche</h2>
-        {{ .Content }}
-      </div>
-    </div>
-  </div>
-</div>
-{{ end }}
+{{/* Sections */}}
+{{ $sections := sort (.Resources.Match "*.md") ".Params.weight" }}
 
-{{/* Section : Pourquoi ENSŌ ? */}}
-{{ with .Resources.Get "enso.md" }}
-<div id="about-enso" class="about-section">
+{{ range $i, $section := $sections }}
+<div id="about-{{ $section.File.ContentBaseName }}"
+     class="about-section{{ if eq (mod $i 2) 1 }} about-section-alt{{ end }}">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8">
-        <h2 class="about-section-title">Pourquoi ENSŌ ?</h2>
-        {{ .Content }}
-      </div>
-    </div>
-  </div>
-</div>
-{{ end }}
-
-{{/* Section : Affiliations */}}
-{{ with .Resources.Get "affiliations.md" }}
-<div id="about-affiliations" class="about-section about-section-alt">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-8">
-        <h2 class="about-section-title">Affiliations</h2>
-        {{ .Content }}
+        <h2 class="about-section-title">{{ $section.Title }}</h2>
+        {{ $section.Content }}
+        {{ if eq $section.File.ContentBaseName "affiliations" }}
         <div class="affiliations-logos">
           {{ range $about.affiliations }}
           <a href="{{ .url }}" target="_blank" rel="noopener" class="affiliation-logo-link">
@@ -85,6 +48,7 @@
           </a>
           {{ end }}
         </div>
+        {{ end }}
       </div>
     </div>
   </div>

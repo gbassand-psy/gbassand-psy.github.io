@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-12 col-md-8">
-        <p class="cta-tagline">Un premier pas, à votre rythme.</p>
+        <p class="cta-tagline">{{ i18n "cta_tagline" | strings.FirstUpper }}</p>
         <div class="cta-buttons">
           <a href="/rendez-vous" class="button button-primary cta-button-main">
-            Prendre rendez-vous
+            {{ i18n "book_appointment_label" | strings.FirstUpper }}
           </a>
           <a href="/contact" class="button cta-button-secondary">
-            Poser une question
+            {{ i18n "question_label" | strings.FirstUpper }}
           </a>
         </div>
       </div>

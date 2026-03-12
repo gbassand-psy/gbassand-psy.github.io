@@ -8,7 +8,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8">
-        <h1 class="contact-page-title">Contact</h1>
+        <h1 class="contact-page-title">{{ i18n "contact_page_title" | strings.FirstUpper }}</h1>
         {{ with .Resources.Get "intro.md" }}
           <div class="contact-intro">{{ .Content }}</div>
         {{ end }}
@@ -26,31 +26,31 @@
         <div class="contact-block">
 
           <div class="contact-item">
-            <span class="contact-label">Email</span>
+            <span class="contact-label">{{ i18n "email_label" | strings.FirstUpper }}</span>
             <a href="mailto:{{ $contact.email }}" class="contact-value">
               {{ $contact.email }}
             </a>
           </div>
 
           <div class="contact-item">
-            <span class="contact-label">Téléphone</span>
+            <span class="contact-label">{{ i18n "phone_label" | strings.FirstUpper }}</span>
             <a href="tel:{{ $contact.phone | replaceRE `\\s` `` }}" class="contact-value">
               {{ $contact.phone }}
             </a>
           </div>
 
           <div class="contact-item">
-            <span class="contact-label">Adresse</span>
+            <span class="contact-label">{{ i18n "address_label" | strings.FirstUpper }}</span>
             <span class="contact-value">{{ $contact.address }}</span>
           </div>
 
           <div class="contact-item">
-            <span class="contact-label">Séances en ligne</span>
-            <span class="contact-value">Disponibles sur demande</span>
+            <span class="contact-label">{{ i18n "online_sessions_label" | strings.FirstUpper }}</span>
+            <span class="contact-value">{{ i18n "online_sessions_availability" | strings.FirstUpper }}</span>
           </div>
 
           <a href="{{ $contact.directions_url }}" target="_blank" rel="noopener" class="btn btn-primary contact-directions-btn">
-            Calculer mon itinéraire
+            {{ i18n "contact_directions_label" | strings.FirstUpper }}
           </a>
 
         </div>
@@ -66,7 +66,7 @@
             style="border:0;"
             allowfullscreen=""
             loading="lazy"
-            title="Localisation du cabinet">
+            title="{{ i18n "contact_map_title" | strings.FirstUpper }}">
           </iframe>
         </div>
       </div>

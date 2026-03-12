@@ -1,0 +1,21 @@
+phone_label: 'téléphone'
+email_label: 'email'
+address_label: 'adresse'
+contact_button_label: 'prendre contact'
+cta_tagline: 'un premier pas, à votre rythme'
+book_appointment_label: 'prendre rendez-vous'
+question_label: 'poser une question'
+legal_link_label: 'mentions légales'
+privacy_link_label: 'confidentialité'
+
+contact_page_title: 'contact'
+online_sessions_label: 'séances en ligne'
+online_sessions_availability: 'disponible sur demande'
+contact_directions_label: 'calculer mon itinéraire'
+contact_map_title: 'localisation du cabinet'
+
+not_found_title: "Cette page n'existe pas."
+not_found_message: "Il est possible que le lien ait changé ou que la page ait été déplacée. Vous pouvez retourner à l'accueil ou consulter les disponibilités directement."
+not_found_action_label: "Retour à l'accueil"
+
+home_affiliations_label: "Membre"

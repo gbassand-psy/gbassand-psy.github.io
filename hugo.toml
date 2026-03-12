@@ -4,6 +4,8 @@ title = 'ENSŌ Psychologie'
 themesDir = 'themes'
 theme = 'hugo-serif-theme'
 
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = false
 
 [module]
   [module.hugoVersion]
@@ -44,7 +46,6 @@ theme = 'hugo-serif-theme'
     meta_twitter_site = ""
     meta_twitter_creator = ""
     meta_og_image = "https://enso-psychologie.ch/images/og-image.jpg"
-    meta_og_locale = 'fr_CH'
 
   [params.services]
     summary_truncate = 120 # How many characters to include in the summary of the services before truncating
@@ -55,50 +56,90 @@ theme = 'hugo-serif-theme'
   [params.footer]
     copyright_text = '© Guillaume Bassand – ENSŌ Psychologie'
 
-[menu]
-  # Main Menu
-  [[menu.main]]
-    name = "Prestations"
-    url = "/services/"
+[languages]
+  [languages.fr]
+    languageCode = 'fr-CH'
+    languageName = "Français"
     weight = 1
-
-  [[menu.main]]
-    name = "Prendre rendez-vous"
-    url = "/rendez-vous/"
+    [languages.fr.params.seo]
+      meta_og_locale = "fr_CH"
+    [languages.en.params.seo]
+      meta_og_locale = "en_GB"
+    [[languages.fr.menu.main]]
+      name = "Prestations"
+      url = "/prestations/"
+      weight = 1
+    [[languages.fr.menu.main]]
+      name = "Prendre rendez-vous"
+      url = "/prendre-rendez-vous/"
+      weight = 2
+    [[languages.fr.menu.main]]
+      name = "À propos"
+      url = "/a-propos/"
+      weight = 3
+    [[languages.fr.menu.main]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 4
+    [[languages.fr.menu.footer]]
+      name = "Accueil"
+      url = "/"
+      weight = 1
+    [[languages.fr.menu.footer]]
+      name = "Prestations"
+      url = "/prestations/"
+      weight = 2
+    [[languages.fr.menu.footer]]
+      name = "Prendre rendez-vous"
+      url = "/prendre-rendez-vous/"
+      weight = 3
+    [[languages.fr.menu.footer]]
+      name = "À propos"
+      url = "/a-propos/"
+      weight = 4
+    [[languages.fr.menu.footer]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 5
+[languages.en]
+    languageCode = "en-GB"
+    languageName = "English"
     weight = 2
-
-  [[menu.main]]
-    name = "À propos"
-    url = "/about/"
-    weight = 3
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
-
-  # Footer Menu
-  [[menu.footer]]
-    name = "Accueil"
-    url = "/"
-    weight = 1
-
-  [[menu.footer]]
-    name = "Prestations"
-    url = "/services/"
-    weight = 2
-
-  [[menu.footer]]
-    name = "Prendre rendez-vous"
-    url = "/rendez-vous/"
-    weight = 3
-
-  [[menu.footer]]
-    name = "À propos"
-    url = "/about/"
-    weight = 4
-
-  [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 5
+    [languages.en.params]
+      og_locale = "en_GB"
+    [[languages.en.menu.main]]
+      name = "Services"
+      url = "/en/services/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Book an appointment"
+      url = "/en/book/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/en/about/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Contact"
+      url = "/en/contact/"
+      weight = 4
+    [[languages.en.menu.footer]]
+      name = "Home"
+      url = "/en/"
+      weight = 1
+    [[languages.en.menu.footer]]
+      name = "Services"
+      url = "/en/services/"
+      weight = 2
+    [[languages.en.menu.footer]]
+      name = "Book an appointment"
+      url = "/en/book/"
+      weight = 3
+    [[languages.en.menu.footer]]
+      name = "About"
+      url = "/en/about/"
+      weight = 4
+    [[languages.en.menu.footer]]
+      name = "Contact"
+      url = "/en/contact/"
+      weight = 5
