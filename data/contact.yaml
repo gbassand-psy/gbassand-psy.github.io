@@ -1,6 +1,12 @@
 email: contact@enso-psychologie.ch
 phone: "+41 77 266 11 22"
-address: "Avenue de Rumine 35, 1005 Lausanne"
-address_osm_lat: 46.516338
-address_osm_lon: 6.642888
-directions_url: "https://www.openstreetmap.org/directions?to=46.5197%2C6.6323"
+address: "Avenue de la gare 10, 1003 Lausanne"
+floor: '3ème étage'
+address_osm_lat: 46.517269
+address_osm_lon: 6.635794
+directions_url: "https://www.google.com/maps/dir/?api=1&destination=Avenue+de+la+Gare+10%2C+1003+Lausanne"
+transit:
+  - line: "M2"
+    stop: "Lausanne-Gare"
+  - line: "Bus 1, 21"
+    stop: "Lausanne, Gare"

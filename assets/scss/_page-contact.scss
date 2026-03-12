@@ -45,6 +45,21 @@
     gap: 0.25rem;
   }
 
+  .transit-line {
+    display: block;
+
+    & + .transit-line {
+      margin-top: 4px;
+    }
+  }
+
+  .transit-line-name {
+    display: inline-block;
+    min-width: 80px;
+    font-weight: 600;
+    color: $enso-sage;
+  }
+
   .contact-label {
     font-size: 0.75rem;
     letter-spacing: 0.08em;
@@ -59,15 +74,6 @@
     line-height: 1.5;
   }
 
-  /*a.contact-value {
-    color: $enso-ink;
-    border-bottom: 1px solid $enso-sage;
-    &:hover {
-      color: $enso-sage;
-      border-bottom-color: transparent;
-    }
-  }*/
-
   .contact-directions-btn {
     margin-top: 1rem;
     align-self: flex-start;
@@ -76,7 +82,7 @@
   .contact-map {
     border-radius: $enso-radius;
     overflow: hidden;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 
     iframe {
       display: block;
