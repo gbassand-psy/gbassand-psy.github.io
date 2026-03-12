@@ -1,5 +1,6 @@
 ---
 title: "Politique de confidentialité"
+slug: "privacy"
 description: "Politique de confidentialité du site enso-psychologie.ch, conformément à la nLPD suisse."
 layout: "simple"
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Mentions légales"
+slug: "legal"
 description: "Informations légales relatives au site enso-psychologie.ch"
 layout: "simple"
 ---

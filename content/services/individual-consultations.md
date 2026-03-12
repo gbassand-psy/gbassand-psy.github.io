@@ -1,5 +1,6 @@
 ---
 title: "Consultations individuelles"
+slug: "consultations-individuelles"
 date: 2026-03-07
 weight: 1
 featured: true

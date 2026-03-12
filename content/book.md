@@ -1,5 +1,6 @@
 ---
 title: "Prendre rendez-vous"
+slug: "prendre-rendez-vous"
 description: "Réservez une consultation individuelle, un entretien de coaching ou de soutien — en présentiel à Lausanne ou en ligne."
 ---
 

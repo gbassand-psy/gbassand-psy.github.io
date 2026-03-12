@@ -1,5 +1,6 @@
 ---
 title: "Coaching psychologique"
+slug: "coaching-psychologique"
 date: 2026-03-07
 weight: 2
 featured: true

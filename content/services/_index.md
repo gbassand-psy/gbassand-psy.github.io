@@ -1,5 +1,6 @@
 ---
 title: "Prestations"
+slug: "prestations"
 description: "Consultations individuelles, coaching psychologique et entretiens de soutien — un accompagnement adapté à chaque situation."
 ---
 
