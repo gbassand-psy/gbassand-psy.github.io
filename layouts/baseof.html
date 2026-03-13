@@ -50,6 +50,10 @@
     {{ with .Site.Params.seo.meta_twitter_creator }}<meta name="twitter:creator" content="{{ . }}"/>{{ end }}
   {{ end }}
 
+{{ if not hugo.IsServer }}
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="9640f88e-2067-444d-b959-5c1de72ed66b"></script>
+{{ end }}
+
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
