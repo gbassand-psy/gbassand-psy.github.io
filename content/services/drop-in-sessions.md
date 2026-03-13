@@ -1,6 +1,7 @@
 ---
 title: "Accompagnements ponctuels"
 slug: "accompagnements-ponctuels"
+url: "prestations/accompagnements-ponctuels"
 date: 2026-03-07
 weight: 3
 featured: true

@@ -24,6 +24,9 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Test HTML
+        run: htmltest -c .htmltest.yml
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

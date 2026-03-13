@@ -1,0 +1,5 @@
+DirectoryPath: "public"
+CheckExternal: false
+IgnoreURLs:
+  - "localhost"
+  - "livereload"

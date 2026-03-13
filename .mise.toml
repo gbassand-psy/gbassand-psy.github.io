@@ -1,2 +1,3 @@
 [tools]
 hugo-extended = "0.157.0"
+"github:wjdp/htmltest" = "latest"

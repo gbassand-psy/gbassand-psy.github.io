@@ -1,0 +1,67 @@
+@import 'enso-variables';
+
+// Any variables that need to use Hugo configuration need to be declared here
+// Colors
+$primary: $enso-sage;
+$black: $enso-ink;
+$white: $enso-white;
+$white-offset: $enso-cream;
+$grey: $enso-stone;
+
+// Fonts
+$font-family-base: $enso-font-base, Helvetica, Arial, sans-serif, -apple-system;
+$font-family-heading: $enso-font-heading, serif, -apple-system;
+
+
+// Variables - Override Bootstrap variables and set your own here
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/bootstrap-reboot';
+@import 'bootstrap/bootstrap-grid';
+@import 'bootstrap/bootstrap-utilities';
+// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
+
+// Libraries
+@import 'libraries/hamburgers/hamburgers';
+
+// Components
+@import 'components/type';
+@import 'components/page';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/sub-footer';
+@import 'components/logo';
+@import 'components/main-menu';
+@import 'components/main-menu-mobile';
+@import 'components/hamburger';
+@import 'components/buttons';
+@import 'components/call';
+@import 'components/title';
+@import 'components/content';
+@import 'components/intro';
+@import 'components/intro-image';
+@import 'components/strip';
+@import 'components/feature';
+
+// Pages
+@import 'pages/home/about';
+@import 'pages/home/audience';
+@import 'pages/home/cta';
+@import 'pages/home/services';
+
+@import 'pages/services/page-services-single';
+
+@import 'pages/about';
+@import 'pages/contact';
+
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: $font-family-base;
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+
