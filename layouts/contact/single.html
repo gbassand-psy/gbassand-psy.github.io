@@ -3,6 +3,7 @@
 {{ define "main" }}
 
 {{ $contact := .Site.Data.contact }}
+{{ $t := index $contact .Site.Language.Lang }}
 
 <div id="contact-hero">
   <div class="container">
@@ -44,21 +45,21 @@
             <span class="contact-value">{{ $contact.address }}</span>
           </div>
 
-          {{ with $contact.floor }}
+          {{ with $t.floor }}
           <div class="contact-item">
             <span class="contact-label">{{ i18n "floor_label" | strings.FirstUpper }}</span>
             <span class="contact-value">{{ . }}</span>
           </div>
           {{ end }}
 
-          {{ with $contact.building }}
+          {{ with $t.building }}
           <div class="contact-item">
             <span class="contact-label">{{ i18n "building_label" | strings.FirstUpper }}</span>
             <span class="contact-value">{{ . }}</span>
           </div>
           {{ end }}
 
-          {{ with $contact.transit }}
+          {{ with $t.transit }}
           <div class="contact-item contact-item-transit">
             <span class="contact-label">{{ i18n "transit_label" | strings.FirstUpper }}</span>
             <span class="contact-value">
@@ -71,31 +72,23 @@
           </div>
           {{ end }}
 
+          {{ with $t.parking }}
+          <div class="contact-item">
+            <span class="contact-label">{{ i18n "parking_label" | strings.FirstUpper }}</span>
+            <span class="contact-value">{{ . }}</span>
+          </div>
+          {{ end }}
+
           <div class="contact-item">
             <span class="contact-label">{{ i18n "online_sessions_label" | strings.FirstUpper }}</span>
             <span class="contact-value">{{ i18n "online_sessions_availability" | strings.FirstUpper }}</span>
           </div>
-
-          <a href="{{ $contact.directions_url }}" target="_blank" rel="noopener" class="btn btn-primary contact-directions-btn">
-            {{ i18n "contact_directions_label" | strings.FirstUpper }}
-          </a>
-
         </div>
       </div>
 
       {{/* Carte OSM */}}
       <div class="col-12 col-md-7 offset-md-1">
-        <div class="contact-map">
-          <iframe
-            src="https://www.openstreetmap.org/export/embed.html?bbox={{ sub $contact.address_osm_lon 0.001 }},{{ sub $contact.address_osm_lat 0.001 }},{{ add $contact.address_osm_lon 0.001 }},{{ add $contact.address_osm_lat 0.001 }}&layer=mapnik&marker={{ $contact.address_osm_lat }},{{ $contact.address_osm_lon }}"
-            width="100%"
-            height="400"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            title="{{ i18n "contact_map_title" | strings.FirstUpper }}">
-          </iframe>
-        </div>
+        {{ partial "osmap.html" . }}
       </div>
 
     </div>

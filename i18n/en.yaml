@@ -1,0 +1,25 @@
+phone_label: 'phone'
+email_label: 'email'
+address_label: 'address'
+floor_label: 'floor'
+building_label: 'building'
+transit_label: 'transport'
+parking_label: 'parking'
+contact_button_label: 'get in touch'
+cta_tagline: 'one step at a time'
+book_appointment_label: 'book an appointment'
+question_label: 'ask a question'
+legal_link_label: 'legal notice'
+privacy_link_label: 'privacy'
+
+contact_page_title: 'contact'
+online_sessions_label: 'online sessions'
+online_sessions_availability: 'available on request'
+contact_directions_label: 'get directions'
+contact_map_title: 'practice location'
+
+not_found_title: "This page does not exist."
+not_found_message: "The link may have changed or the page may have moved. You can return to the home page or check availability directly."
+not_found_action_label: "Back to home"
+
+home_affiliations_label: "Member"

@@ -1,12 +1,28 @@
 email: contact@enso-psychologie.ch
 phone: "+41 77 266 11 22"
-address: "Avenue de la gare 10, 1003 Lausanne"
-floor: '3ème étage'
 address_osm_lat: 46.517269
 address_osm_lon: 6.635794
 directions_url: "https://www.google.com/maps/dir/?api=1&destination=Avenue+de+la+Gare+10%2C+1003+Lausanne"
-transit:
-  - line: "M2"
-    stop: "Lausanne-Gare"
-  - line: "Bus 1, 21"
-    stop: "Lausanne, Gare"
+address: "Avenue de la Gare 10, 1003 Lausanne"
+
+fr:
+  floor: "3ème étage"
+  transit:
+    - line: "Bus 1, 2, 4, 8, 9"
+      stop: "Georgette — 2 min à pied"
+    - line: "Bus 1, 2, 4, 6, 8, 9, 13"
+      stop: "St-François — 2 min à pied"
+    - line: "Métro M2 / CFF / Bus 1, 3, 20, 21"
+      stop: "Lausanne-Gare — 5 min à pied"
+  parking: "Parking Bellefontaine — places avec horodateurs devant le cabinet"
+
+en:
+  floor: "3rd floor"
+  transit:
+    - line: "Bus 1, 2, 4, 8, 9"
+      stop: "Georgette — 2 min walk"
+    - line: "Bus 1, 2, 4, 6, 8, 9, 13"
+      stop: "St-François — 2 min walk"
+    - line: "Métro M2 / CFF / Bus 1, 3, 20, 21"
+      stop: "Lausanne-Gare — 5 min walk"
+  parking: "Parking Bellefontaine — metered parking in front of the practice"

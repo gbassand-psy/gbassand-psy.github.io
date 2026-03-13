@@ -1,17 +1,36 @@
-[
-  {
-    "title": "Vous traversez une période difficile",
-    "description": "Vous cherchez un espace pour souffler, faire le point, comprendre ce qui se passe — sans jugement et à votre rythme.",
-    "icon": ""
-  },
-  {
-    "title": "Vous êtes parent",
-    "description": "Vous voyez votre enfant ou adolescent se poser des questions et cherchez quelqu'un de qualifié à qui faire confiance pour l'accompagner.",
-    "icon": ""
-  },
-  {
-    "title": "Vous vous sentez bloqué",
-    "description": "Dans une situation personnelle ou professionnelle, vous souhaitez avancer avec un accompagnement structuré et bienveillant.",
-    "icon": ""
-  }
-]
+{
+  "fr": [
+    {
+      "title": "Vous traversez une période difficile",
+      "description": "Vous cherchez un espace pour souffler, faire le point, comprendre ce qui se passe — sans jugement et à votre rythme.",
+      "icon": ""
+    },
+    {
+      "title": "Vous êtes parent",
+      "description": "Vous voyez votre enfant ou adolescent se poser des questions et cherchez quelqu'un de qualifié à qui faire confiance pour l'accompagner.",
+      "icon": ""
+    },
+    {
+      "title": "Vous vous sentez bloqué",
+      "description": "Dans une situation personnelle ou professionnelle, vous souhaitez avancer avec un accompagnement structuré et bienveillant.",
+      "icon": ""
+    }
+  ],
+  "en": [
+    {
+      "title": "Life feels hard right now",
+      "description": "You are looking for a space to breathe, take stock and understand what is happening — without judgement and at your own pace.",
+      "icon": ""
+    },
+    {
+      "title": "You are a parent",
+      "description": "You notice your child or teenager is going through a hard time and are looking for a qualified professional you can trust to support them.",
+      "icon": ""
+    },
+    {
+      "title": "You feel stuck",
+      "description": "In a personal or professional situation, you want to move forward with structured, supportive guidance.",
+      "icon": ""
+    }
+  ]
+}

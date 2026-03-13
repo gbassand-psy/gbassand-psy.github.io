@@ -49,15 +49,15 @@
     display: block;
 
     & + .transit-line {
-      margin-top: 4px;
+      margin-top: 8px;
     }
   }
 
   .transit-line-name {
-    display: inline-block;
-    min-width: 80px;
+    display: block;
     font-weight: 600;
     color: $enso-sage;
+    margin-bottom: 2px;
   }
 
   .contact-label {
@@ -72,6 +72,11 @@
     font-size: 1rem;
     color: $enso-ink;
     line-height: 1.5;
+  }
+
+  .contact-directions {
+    margin-top: 12px;
+    text-align: right;
   }
 
   .contact-directions-btn {

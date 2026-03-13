@@ -30,26 +30,28 @@
 </div>
 {{end}}
 
-{{with .Site.Data.home_about}}
+{{ $about := .Site.Data.home_about }}
+{{ $t := index $about .Site.Language.Lang }}
+{{with $about}}
 <div id="strip-about" class="strip">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center align-items-center">
       <div class="col-12 col-md-5 mb-4 mb-md-0">
-        <img src="{{ .photo | relURL }}" alt="{{ .name }}" class="about-photo"/>
+        <img src="{{ $about.photo | relURL }}" alt="{{ $about.name }}" class="about-photo"/>
       </div>
       <div class="col-12 col-md-6 offset-md-1">
         <div class="about-text-card shadow-sm">
-          <h2 class="about-name">{{ .name }}</h2>
-          <p class="about-role">{{ .role }}</p>
-          <p class="about-tagline">{{ .tagline }}</p>
-          <p class="about-bio">{{ .bio }}</p>
+          <h2 class="about-name">{{ $about.name }}</h2>
+          <p class="about-role">{{ $t.role }}</p>
+          <p class="about-tagline">{{ $t.tagline }}</p>
+          <p class="about-bio">{{ $t.bio }}</p>
           <p class="about-affiliations">
             {{ i18n "home_affiliations_label" | strings.FirstUpper }} :
-            {{ range .affiliations }}
+            {{ range $about.affiliations }}
               <span>{{ .name }}</span>
             {{ end }}
           </p>
-          <a href="{{ .link_url }}" class="about-link">{{ .link_label }}</a>
+          <a href="{{ $t.link_url }}" class="about-link">{{ $t.link_label }}</a>
         </div>
       </div>
     </div>
@@ -61,7 +63,7 @@
 <div id="strip-audience" class="strip strip-audience">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
-      {{ range .Site.Data.audiences }}
+      {{ range index .Site.Data.audiences .Site.Language.Lang }}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature shadow-sm">
           {{ if .image }}

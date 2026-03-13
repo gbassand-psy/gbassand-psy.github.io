@@ -3,6 +3,7 @@
 {{ define "main" }}
 
 {{ $about := .Site.Data.home_about }}
+{{ $t := index $about .Site.Language.Lang }}
 
 {{/* Hero */}}
 <div id="about-hero">
@@ -17,8 +18,8 @@
       </div>
       <div class="col-12 col-md-6 offset-md-1">
         <h1 class="about-page-name">{{ $about.name }}</h1>
-        <p class="about-page-role">{{ $about.role }}</p>
-        <p class="about-page-tagline">{{ $about.tagline }}</p>
+        <p class="about-page-role">{{ $t.role }}</p>
+        <p class="about-page-tagline">{{ $t.tagline }}</p>
       </div>
     </div>
   </div>
