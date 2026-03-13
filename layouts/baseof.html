@@ -12,6 +12,13 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/logos/enso-logo-apple-touch-icon-180x180.png" | relURL }}">
   <link rel="manifest" href="/site.webmanifest">
 
+  {{ if .IsTranslated }}
+    {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+    {{ end }}
+    <link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}" />
+  {{ end }}
+
   {{ partial "google-fonts.html" . }}
 
   <!-- CSS-->
@@ -31,6 +38,11 @@
     <meta property="og:url" content="{{ .Permalink }}"/>
     <meta property="og:site_name" content="{{ .Site.Title }}"/>
     {{ with .Site.Params.seo.meta_og_locale }}<meta property="og:locale" content="{{ . }}"/>{{ end }}
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+    <meta property="og:locale:alternate" content="{{ .Language.Params.seo.meta_og_locale }}" />
+      {{ end }}
+    {{ end }}
     {{ with .Params.image | default .Site.Params.seo.meta_og_image }}<meta property="og:image" content="{{ . | absURL }}"/>{{ end }}
     {{ with .Params.description }}<meta property="og:description" content="{{ . }}"/>{{ end }}
     <meta name="twitter:card" content="summary_large_image"/>
