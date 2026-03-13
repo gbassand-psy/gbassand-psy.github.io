@@ -23,3 +23,6 @@ not_found_message: "Il est possible que le lien ait changé ou que la page ait �
 not_found_action_label: "Retour à l'accueil"
 
 home_affiliations_label: "Membre"
+
+url_contact: "/contact/"
+url_book: "/prendre-rendez-vous/"

@@ -55,6 +55,8 @@ $font-family-heading: $enso-font-heading, serif, -apple-system;
 @import 'pages/about';
 @import 'pages/contact';
 
+@import 'pages/404';
+
 body {
   font-size: 16px;
   line-height: 1.2;

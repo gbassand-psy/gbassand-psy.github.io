@@ -16,7 +16,7 @@
   </div>
   {{ if eq .show_button "true" }}
   <div class="call-box-bottom">
-    <a href="/contact" class="button"
+    <a href="{{ i18n "url_contact" | relLangURL }}" class="button"
       >{{ i18n "contact_button_label" | strings.FirstUpper }}</a
     >
   </div>

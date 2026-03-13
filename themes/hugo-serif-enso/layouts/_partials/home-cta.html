@@ -4,10 +4,10 @@
       <div class="col-12 col-md-8">
         <p class="cta-tagline">{{ i18n "cta_tagline" | strings.FirstUpper }}</p>
         <div class="cta-buttons">
-          <a href="/rendez-vous" class="button button-primary cta-button-main">
+          <a href="{{ i18n "url_book" | relLangURL }}" class="button button-primary cta-button-main">
             {{ i18n "book_appointment_label" | strings.FirstUpper }}
           </a>
-          <a href="/contact" class="button cta-button-secondary">
+          <a href="{{ i18n "url_contact" | relLangURL }}" class="button cta-button-secondary">
             {{ i18n "question_label" | strings.FirstUpper }}
           </a>
         </div>

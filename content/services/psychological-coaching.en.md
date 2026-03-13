@@ -40,4 +40,4 @@ adapted to your pace and your needs.
 - Sessions are not covered by basic Swiss health insurance (LAMal). Partial reimbursement
 may be available through supplementary insurance — please check with your provider.
 
-[Get in touch](/en/contact/)
+[Get in touch]({{< langurl "/en/contact/" >}})

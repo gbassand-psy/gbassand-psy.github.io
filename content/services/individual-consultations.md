@@ -35,4 +35,4 @@ Je m'appuie sur des outils issus des approches humanistes, cognitivo-comportemen
 - **En ligne** — règlement par facture avant la séance, confirmée dès réception du paiement
 - Les séances ne sont pas prises en charge par la LAMal. Certaines assurances complémentaires remboursent partiellement — renseignez-vous auprès de votre caisse.
 
-[Prendre contact](/contact)
+[Prendre contact]({{< langurl "/contact/" >}})
