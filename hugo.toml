@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
   favicon = "images/logos/favicon.ico"
 
   [params.homepage]
-    sticky_header = true
+    sticky_header = false
     show_contact_box = true      # show / hide the contaxt box on the homepage
     show_services_button = false # show / hide the "view all services" button
 

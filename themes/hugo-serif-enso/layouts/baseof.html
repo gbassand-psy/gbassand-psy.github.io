@@ -66,9 +66,7 @@
   {{ partial "footer.html" . }}
   {{ partial "sub-footer.html" . }}
 
-  {{ $menu := resources.Get "js/menu.js" }}
-  {{ $sticky := resources.Get "js/sticky-header.js" }}
-  {{ $scripts := slice $menu $sticky | resources.Concat "js/scripts.js" }}
+  {{ $scripts := resources.Get "js/menu.js" }}
   {{ block "footer_js" . }}{{ end }}
   {{ if hugo.IsProduction }}
     {{ $scripts = $scripts | minify | fingerprint }}

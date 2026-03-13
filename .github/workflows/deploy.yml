@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: true
           fetch-depth: 0
 
       - name: Set up mise
-        uses: jdx/mise-action@v2
+        uses: jdx/mise-action@v3
 
       - name: Build
         run: hugo --minify
