@@ -33,7 +33,7 @@ adapted to your pace and your needs.
 
 ## Practical information
 
-- **Duration:** 60 minutes
+- **Duration:** 50 minutes
 - **Fee:** CHF 150
 - **In person** in Lausanne
 - **Online** — invoiced in advance, session confirmed upon receipt of payment

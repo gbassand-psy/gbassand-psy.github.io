@@ -27,7 +27,7 @@ The goal is not to provide a diagnosis, but to offer concrete support towards gr
 clarity and wellbeing.
 
 ## Practical information
-- **Duration:** 60 minutes
+- **Duration:** 50 minutes
 - **Fee:** CHF 150
 - **In person** in Lausanne
 - **Online** — invoiced in advance, session confirmed upon receipt of payment

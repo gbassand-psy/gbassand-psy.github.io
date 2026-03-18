@@ -29,7 +29,7 @@ Ces entretiens sont souples par nature. Ils peuvent rester ponctuels ou évoluer
 
 ## Cadre et tarifs
 
-- **Durée :** 60 minutes
+- **Durée :** 50 minutes
 - **Tarif :** 150 CHF
 - **En présentiel** à Lausanne
 - **En ligne** — règlement par facture avant la séance, confirmée dès réception du paiement
