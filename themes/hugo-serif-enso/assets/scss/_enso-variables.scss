@@ -5,15 +5,18 @@
 // Color palette
 $enso-cream:        #f8f7f4;  // main background
 $enso-beige:        #f0ede8;  // alternate section background
-$enso-sage:         #4A7C6F;  // primary accent, buttons, footer
+$enso-sage:         #5a8275;  // primary accent, buttons, footer
 $enso-sage-dark:    #3a6359;  // hover states, sub-footer
-$enso-ink:          #2f2f41;  // main text, headings
+$enso-ink:          #2c2f31;  // main text, headings
 $enso-stone:        #5C5A5A;  // secondary text, captions
 $enso-white:        #ffffff;  // cards, rest zones
 
+$enso-terra:      #c46a58;  // secondary accent, links, highlights
+$enso-terra-light: #f2e8e6; // light variant for small highlights background, hover states
+
 // Typography
 $enso-font-heading: "Playfair Display";
-$enso-font-base:    "Source Sans Pro";
+$enso-font-base:    "Nunito Sans";
 
 // Spacing rhythm
 $enso-section-spacing: 80px;

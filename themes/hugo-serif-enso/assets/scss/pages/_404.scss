@@ -21,11 +21,11 @@
     transform: translate(-50%, -50%);
     width: 500px;
     height: 500px;
-    background-image: url("/images/logos/enso-logo-512x512.png");
+    background-image: url("/images/logos/enso-logo-terra-512x512.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    opacity: 0.06;
+    opacity: 0.13;
     pointer-events: none;
     z-index: 0;
   }
@@ -38,7 +38,7 @@
   .not-found-code {
     font-family: $enso-font-heading;
     font-size: 6rem;
-    color: darken($enso-cream, 15%);
+    color: $enso-terra;
     line-height: 1;
     margin-bottom: 1rem;
   }
@@ -46,7 +46,7 @@
   .not-found-title {
     font-family: $enso-font-heading;
     font-size: 2rem;
-    color: $enso-ink;
+    color: $enso-terra;
     margin-bottom: 1.5rem;
   }
 
