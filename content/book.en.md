@@ -13,4 +13,4 @@ schedule, feel free to get in touch directly.
 
 If you would like to chat first or find out more before making an appointment,
 write to me at [contact@enso-psychologie.ch](mailto:contact@enso-psychologie.ch)
-— I will get back to you within 48 hours.
+— I will get back to you as soon as possible.
