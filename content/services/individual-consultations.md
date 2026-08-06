@@ -1,7 +1,7 @@
 ---
 title: "Consultations individuelles"
 slug: "consultations-individuelles"
-url: "prestations/consultations-individuelles"
+url: "accompagnements/consultations-individuelles"
 date: 2026-03-07
 weight: 1
 featured: true

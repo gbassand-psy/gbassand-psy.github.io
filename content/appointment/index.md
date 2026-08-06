@@ -8,6 +8,6 @@ Choisissez un moment qui vous convient via l'agenda ci-dessous. Si aucun crénea
 
 {{< onedoc >}}
 
-## Une question avant de réserver ?
+## Une question avant de prendre rendez-vous ?
 
 Si vous souhaitez d'abord échanger ou en savoir plus avant de prendre rendez-vous, écrivez-moi directement à [contact@enso-psychologie.ch](mailto:contact@enso-psychologie.ch) — je vous répondrai dans les plus brefs délais.

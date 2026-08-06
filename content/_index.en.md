@@ -8,6 +8,6 @@ intro_image_hide_on_mobile: true
 ---
 # Breathe. Understand. Move forward.
 
-ENSŌ Psychologie is a space for psychological support — in person in Lausanne or online. Whether you are going through a difficult time or simply looking to gain perspective and grow, this is a place to think, reflect and find your way forward.
+Licensed Psychologist (Swiss FSP) based in Lausanne and online.
 
-My approach is warm, structured and grounded in evidence-based tools — always centred on your own strengths and resources.
+I support adults, adolescents and children with a human presence, a structured approach centred on your strengths, and grounded in research.

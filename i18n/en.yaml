@@ -25,4 +25,4 @@ not_found_action_label: "Back to home"
 home_affiliations_label: "Member"
 
 url_contact: "/contact/"
-url_book: "/book/"
+url_book: "/appointment/"

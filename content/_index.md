@@ -9,6 +9,6 @@ intro_image_hide_on_mobile: true
 
 # Trouver son souffle. Comprendre. Avancer.
 
-ENSŌ Psychologie est un espace de soutien psychologique, en présentiel sur Lausanne ou en ligne, dédié à l'accompagnement, au conseil et au développement personnel. Il s'adresse aux personnes traversant une période difficile, ou souhaitant prendre du recul et se développer.
+Psychologue FSP à Lausanne et en ligne.
 
-Mon approche est humaine, structurée et centrée sur les ressources, en m'appuyant sur des outils pratiques issus de la recherche scientifique.
+J'accompagne adultes, adolescents et enfants avec une présence humaine, une approche structurée centrée sur vos ressources, et ancrée dans la recherche.

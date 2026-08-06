@@ -89,9 +89,59 @@
       border-top: 1px solid $white-offset;
     }
   }
+  // blockquote {
+  //   padding: 0 1em;
+  //   color: $grey;
+  //   border-left: 0.25em solid $primary;
+  // }
+
   blockquote {
-    padding: 0 1em;
+    padding: 1em 1.5em 1em 2em;
     color: $grey;
-    border-left: 0.25em solid $primary;
+    border-left: none;
+    background-color: $white-offset;
+    border-radius: 4px;
+    margin: 2em 0;
+    position: relative;
+
+    &::before {
+      content: "\"";
+      position: absolute;
+      top: 0.5em;
+      left: 1em;
+      font-size: 3em;
+      color: $primary;
+      opacity: 0.3;
+      font-family: $font-family-heading;
+      line-height: 1;
+    }
+
+    p {
+      font-style: italic;
+      font-family: $font-family-heading;
+      line-height: 1.6;
+      margin-bottom: 0.5em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    cite {
+      display: block;
+      font-size: 85%;
+      color: $primary;
+      font-style: normal;
+      font-weight: 600;
+      margin-top: 1em;
+      padding-top: 0.5em;
+      border-top: 1px solid $white-offset;
+      text-align: right;
+
+      &::before {
+        content: "";
+        margin-right: 0.5em;
+      }
+    }
   }
 }

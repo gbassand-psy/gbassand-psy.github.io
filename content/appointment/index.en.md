@@ -1,6 +1,6 @@
 ---
 title: "Book an appointment"
-slug: "book"
+slug: "appointment"
 description: "Book an individual consultation, a coaching session or a drop-in session — in person in Lausanne or online."
 ---
 
@@ -9,7 +9,7 @@ schedule, feel free to get in touch directly.
 
 {{< onedoc >}}
 
-## A question before booking?
+## A question before making an appointment?
 
 If you would like to chat first or find out more before making an appointment,
 write to me at [contact@enso-psychologie.ch](mailto:contact@enso-psychologie.ch)

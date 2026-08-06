@@ -15,15 +15,15 @@ affiliations:
     logo: "images/logos/logo-acamh-color.svg"
 
 fr:
-  role: "Psychologue, fondateur de ENSŌ Psychologie"
-  tagline: "Je crois que chaque personne porte en elle les ressources pour avancer. Mon rôle est de créer l'espace pour les retrouver — ou les découvrir."
-  bio: "Formé aux approches humanistes, cognitivo-comportementales et à la psychologie positive, j'accompagne adultes, adolescents et familles à Lausanne et en ligne — avec rigueur et bienveillance."
+  role: "Psychologue FSP, fondateur de ENSŌ Psychologie"
+  tagline: "Chaque accompagnement commence par une rencontre."
+  bio: "Mon approche s'inspire de l'humanisme existentialiste, avec un intérêt marqué pour la question de la finitude et la place de l'humain dans le monde. Orientée vers les ressources et les forces, j'accueille adultes, adolescents et familles à Lausanne et en ligne, dans le cadre du conseil et du soutien psychologique."
   link_label: "En savoir plus sur mon approche →"
   link_url: "/a-propos/"
 
 en:
-  role: "Psychologist, founder of ENSŌ Psychologie"
-  tagline: "I believe every person carries within them the resources to move forward. My role is to create the space to find them — or discover them."
-  bio: "Trained in humanistic, cognitive behavioural and positive psychology, I work with adults, adolescents and families in Lausanne and online — thoughtfully and with care."
+  role: "Psychologist (FSP), founder of ENSŌ Psychologie"
+  tagline: "Every journey begins with a genuine meeting."
+  bio: "My approach draws on humanistic-existentialism, with a particular interest in the question of the reality of human limits and our place in the world. Strengths-focused, I welcome adults, adolescents and families in Lausanne and online, within a framework of psychological counselling and support."
   link_label: "Learn more about my approach →"
   link_url: "/en/about/"

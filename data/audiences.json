@@ -1,35 +1,41 @@
 {
   "fr": [
     {
-      "title": "Vous traversez une période difficile",
-      "description": "Vous cherchez un espace pour souffler, faire le point, comprendre ce qui se passe — sans jugement et à votre rythme.",
+      "title": "Chacun d'entre nous aspire à mieux.",
+      "intro": "Vous cherchez à avancer, pas forcément parce que tout va mal, mais parce que vous voulez tirer le meilleur de votre vie et de vos ressources.",
+      "description": "Je vous propose un espace et des outils pour y voir clair, trouver ou renforcer des ressources, et mettre des mots sur ce que vous souhaitez changer.",
       "icon": ""
     },
     {
-      "title": "Vous êtes parent",
-      "description": "Vous voyez votre enfant ou adolescent se poser des questions et cherchez quelqu'un de qualifié à qui faire confiance pour l'accompagner.",
+      "title": "Pour votre enfant, pour vous.",
+      "intro": "Votre enfant ou adolescent traverse quelque chose de difficile ou se cherche, et vous cherchez quelqu'un de confiance à qui le ou la confier. Ou simplement quelqu'un pour vous aider à mieux l'accompagner.",
+      "description": "Je travaille avec les enfants, les adolescents, et les parents. Selon ce qui est le plus juste pour chacun.",
       "icon": ""
     },
     {
-      "title": "Vous vous sentez bloqué",
-      "description": "Dans une situation personnelle ou professionnelle, vous souhaitez avancer avec un accompagnement structuré et bienveillant.",
+      "title": "Mieux vous comprendre.",
+      "intro": "Vous avez toujours fonctionné différemment. Vous aimeriez mieux vous comprendre, et trouver une façon de vivre qui vous ressemble davantage et vous permette de vous sentir plus libre.",
+      "description": "Avec ou sans diagnostic, je vous propose un accompagnement adapté à votre manière de fonctionner, pour avancer vers une vie plus en accord avec ce qui compte pour vous.",
       "icon": ""
     }
   ],
   "en": [
     {
-      "title": "Life feels hard right now",
-      "description": "You are looking for a space to breathe, take stock and understand what is happening — without judgement and at your own pace.",
+      "title": "We all long to thrive.",
+      "intro": "You're looking to move forward. Not necessarily because something is wrong, but because you want to make the most of your life and your inner strengths.",
+      "description": "I offer a supportive space and practical tools to help you gain clarity, discover or strengthen your personal resources, and find the words for the changes you want to make.",
       "icon": ""
     },
     {
-      "title": "You are a parent",
-      "description": "You notice your child or teenager is going through a hard time and are looking for a qualified professional you can trust to support them.",
+      "title": "For your child. For you.",
+      "intro": "Your child or teenager may be going through a difficult time or trying to find their way, and you're looking for someone you can trust to support them. Or perhaps you're simply looking for guidance to help you support them more confidently yourself.",
+      "description": "I work with children, teenagers, and parents, offering the approach that best meets each person's needs.",
       "icon": ""
     },
     {
-      "title": "You feel stuck",
-      "description": "In a personal or professional situation, you want to move forward with structured, supportive guidance.",
+      "title": "Understanding yourself.",
+      "intro": "You've always experienced the world a little differently. You'd like to understand yourself better and to find a way of living that feels more true to who you are and allows you to feel freer.",
+      "description": "Whether or not you have a diagnosis, I offer support tailored to the way you experience the world, helping you move towards a life that reflects what matters most to you.",
       "icon": ""
     }
   ]

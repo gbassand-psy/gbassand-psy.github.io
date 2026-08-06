@@ -1,0 +1,25 @@
+fr:
+  title: Avant de continuer
+  intro: L'accompagnement proposé relève du conseil et de l'accompagnement psychologique, non de la psychothérapie.
+  warning: Les séances ne sont pas remboursées par l'assurance de base (LAMal).
+  insurance: >
+    Certaines assurances complémentaires prévoient une prise en charge partielle.
+    Renseignez-vous auprès de votre caisse avant de prendre rendez-vous pour confirmer votre prise en charge.
+  details: ""
+  cta_learn_label: "Conseil ou thérapie - quelle différence ?"
+  cta_learn_url: "/accompagnements/"
+  cta_book_label: "Prendre rendez-vous"
+  cta_book_url: "/prendre-rendez-vous/"
+
+en:
+  title: Before you continue
+  intro: The support offered falls under psychological counselling and guidance, rather than psychotherapy.
+  warning: Sessions are not covered by basic health insurance (LAMal).
+  insurance: >
+    Some supplementary insurance plans offer partial coverage.
+    Please check with your insurer before booking to confirm your coverage.
+  details: ""
+  cta_learn_label: "Counselling vs Therapy — What's the Difference?"
+  cta_learn_url: "/en/support/"
+  cta_book_label: "Book an Appointment"
+  cta_book_url: "/en/appointment/"

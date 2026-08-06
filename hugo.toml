@@ -61,8 +61,8 @@ defaultContentLanguageInSubdir = false
     [languages.en.params.seo]
       meta_og_locale = "en_GB"
     [[languages.fr.menu.main]]
-      name = "Prestations"
-      url = "/prestations/"
+      name = "Accompagnements"
+      url = "/accompagnements/"
       weight = 1
     [[languages.fr.menu.main]]
       name = "Prendre rendez-vous"
@@ -81,8 +81,8 @@ defaultContentLanguageInSubdir = false
       url = "/"
       weight = 1
     [[languages.fr.menu.footer]]
-      name = "Prestations"
-      url = "/prestations/"
+      name = "Accompagnements"
+      url = "/accompagnements/"
       weight = 2
     [[languages.fr.menu.footer]]
       name = "Prendre rendez-vous"
@@ -103,12 +103,12 @@ defaultContentLanguageInSubdir = false
     [languages.en.params]
       og_locale = "en_GB"
     [[languages.en.menu.main]]
-      name = "Services"
-      url = "/en/services/"
+      name = "Support"
+      url = "/en/support/"
       weight = 1
     [[languages.en.menu.main]]
       name = "Book an appointment"
-      url = "/en/book/"
+      url = "/en/appointment/"
       weight = 2
     [[languages.en.menu.main]]
       name = "About"
@@ -123,12 +123,12 @@ defaultContentLanguageInSubdir = false
       url = "/en/"
       weight = 1
     [[languages.en.menu.footer]]
-      name = "Services"
-      url = "/en/services/"
+      name = "Support"
+      url = "/en/support/"
       weight = 2
     [[languages.en.menu.footer]]
       name = "Book an appointment"
-      url = "/en/book/"
+      url = "/en/appointment/"
       weight = 3
     [[languages.en.menu.footer]]
       name = "About"

@@ -1,0 +1,36 @@
+.disclaimer-wrapper {
+  position: relative;
+  z-index: 10;
+  background: linear-gradient(
+    to bottom,
+    $enso-beige 50%,
+    $enso-white 50%
+  );
+}
+
+.disclaimer-card {
+  background-color: $enso-white;
+  border-left: 4px solid $enso-sage;
+  border-radius: $enso-radius * 2;
+  padding: 2rem 2.5rem;
+  position: relative;
+}
+
+.disclaimer-text {
+  font-size: 0.95rem;
+  color: $enso-ink;
+  line-height: 1.6;
+}
+
+.disclaimer-warning {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: $enso-sage;
+  line-height: 1.6;
+}
+
+.disclaimer-details {
+  font-size: 0.875rem;
+  color: $enso-stone;
+  line-height: 1.6;
+}

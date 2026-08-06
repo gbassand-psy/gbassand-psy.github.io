@@ -5,4 +5,4 @@ I generally reply as soon as possible. If you prefer a more direct exchange,
 don't hesitate to call.
 
 To book an appointment, you can also go straight to the
-[Book an appointment]({{< langurl "/en/book/" >}}) page.
+[Book an appointment]({{< langurl "/en/appointment/" >}}) page.

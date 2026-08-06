@@ -20,10 +20,12 @@
     width: 100%;
     height: auto;
   }
-  .feature-title {
-  }
   .feature-content {
     margin-bottom: 0;
     margin-top: auto;
+
+    .feature-intro {
+      font-style: italic;
+    }
   }
 }
