@@ -10,34 +10,32 @@ summary: "Goal-oriented support to strengthen your resources, clarify a directio
 ---
 ## Who is this for?
 
-For people who have a clear goal — or are in the process of defining one — whether
-personal or professional, and want to move forward in a structured way. Psychological
-coaching is also for those who feel stuck in a specific situation and are looking for
-concrete tools to get moving again.
+You have a clear goal or one that is being defined — personal or professional — and you want to move forward in a structured way.
+Psychological coaching is also for people who feel stuck in a specific situation and are looking for concrete tools to find a way forward.
+
 
 ## What we work on together
 
-Psychological coaching combines the scientific rigour of psychology with an
-action-oriented approach. Depending on your situation, we may work on:
+Psychological coaching combines scientific rigour with an
+action-oriented approach. Depending on your situation, we can work on:
 
 - Clarifying your goals and priorities
 - Strengthening your personal resources
 - Decision-making and problem-solving
-- Performance and burnout prevention
+- Managing performance while preventing burnout
 
 ## My approach
 
-Each session is structured around your concrete situation. I use tools drawn from
-positive psychology, cognitive behavioural therapy and motivational interviewing —
-adapted to your pace and your needs.
+Each session is centered on your concrete situation. I use tools from positive psychology, cognitive-behavioural therapies, and motivational interviewing.
+These methods are adapted to your own pace and your specific needs.
+
 
 ## Practical information
 
 - **Duration:** 50 minutes
 - **Fee:** CHF 150
 - **In person** in Lausanne
-- **Online** — invoiced in advance, session confirmed upon receipt of payment
-- Sessions are not covered by basic Swiss health insurance (LAMal). Partial reimbursement
-may be available through supplementary insurance — please check with your provider.
+- **Online** — payment by invoice before the session, confirmed upon receipt of payment
+- Sessions are not covered by basic Swiss health insurance (LAMal). Some supplementary insurance may provide partial reimbursement — please check with your provider.
 
 [Get in touch]({{< langurl "/en/contact/" >}})

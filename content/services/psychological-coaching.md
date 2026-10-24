@@ -12,20 +12,21 @@ summary: "Un accompagnement orienté objectifs pour renforcer vos ressources, cl
 
 ## Pour qui ?
 
-Pour les personnes qui ont un objectif clair ou en cours de définition — personnel ou professionnel — et qui souhaitent avancer de façon structurée. Le coaching psychologique s'adresse aussi aux personnes qui se sentent bloquées dans une situation précise et cherchent des outils concrets pour bouger.
+Vous avez un objectif clair ou en cours de définition — personnel ou professionnel — et vous souhaitez avancer de façon structurée. Le coaching psychologique s'adresse aussi aux personnes qui se sentent bloquées dans une situation précise et cherchent des outils concrets pour sortir de l'impasse.
+
 
 ## Ce que nous faisons ensemble
 
-Le coaching psychologique combine la rigueur scientifique de la psychologie avec une approche orientée action. Selon votre situation, nous pouvons travailler sur :
+Le coaching psychologique allie rigueur scientifique et approche orientée vers l'action. Selon votre situation, nous pouvons travailler sur :
 
-- La clarification de vos objectifs et de vos priorités
-- Le renforcement de vos ressources personnelles
-- La prise de décision et la résolution de problèmes
-- La gestion de la performance et la prévention de l'épuisement
+- Clarifier vos objectifs et vos priorités
+- Renforcer vos ressources personnelles
+- Prendre des décisions et résoudre des problèmes
+- Gérer la performance tout en prévenant l'épuisement
 
 ## Mon approche
 
-Chaque séance est structurée autour de votre situation concrète. J'utilise des outils issus de la psychologie positive, des thérapies cognitivo-comportementales et de l'entretien motivationnel — adaptés à votre rythme et à vos besoins.
+Chaque séance est centrée sur votre situation concrète. J'utilise des outils issus de la psychologie positive, des thérapies cognitivo-comportementales et de l'entretien motivationnel. Ces méthodes sont adaptées à votre propre rythme et à vos besoins spécifiques.
 
 ## Cadre et tarifs
 

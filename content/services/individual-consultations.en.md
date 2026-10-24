@@ -5,8 +5,8 @@ date: 2026-03-07
 weight: 1
 featured: true
 icon: ""
-description: "A confidential space to navigate a difficult period, gain self-understanding or work on personal growth — in Lausanne and online."
-summary: "A space for reflection and support — to work through a difficult time, gain clarity or pursue personal development."
+description: "A private space for individual support to navigate a difficult period, gain self-understanding, or work on self-growth — in Lausanne and online."
+summary: "A space for listening and reflection to navigate a difficult period, clarify a situation, or support a personal development journey."
 ---
 ## Who is this for?
 For anyone going through a challenging or unsettling period — a life transition, a loss,

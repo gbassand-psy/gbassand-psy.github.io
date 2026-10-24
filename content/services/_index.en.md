@@ -6,7 +6,7 @@ description: "Individual psychological support consultations — care tailored t
 
 # Seeking Psychological Support?
 
-The terms psychologist, psychotherapist, and psychiatrist sound similar but refer to different realities. Understanding these differences helps you choose the right type of support—and anticipate what your insurance covers.
+The terms psychologist, psychotherapist, and psychiatrist sound similar but refer to different realities. Understanding these differences helps you choose the right type of support — and anticipate what your insurance covers.
 
 I work specifically as a **licensed Psychologue FSP**, within a framework of psychological counselling and support. This page explains what I offer, and the important distinctions to know.
 
@@ -31,7 +31,7 @@ Reasons for consulting are as varied as the people who come. They often overlap:
 
 There is no right or wrong reason to take that first step. Your decision is valid, whatever it may be.
 
-> *Note:* Waiting times for funded psychotherapy placements can be long—several months, sometimes longer. Some people choose not to wait and consult me in the interim. Others simply opt for support outside the standard medical pathway, fully informed.
+> *Note:* Waiting times for covered psychotherapy sessions can be long—several months, sometimes longer. Some people choose not to wait and consult me in the interim. Others simply opt for support outside the standard medical pathway, fully informed.
 
 
 ## What I Offer
@@ -39,13 +39,13 @@ There is no right or wrong reason to take that first step. Your decision is vali
 As a licensed Psychologue FSP, I offer **psychological counselling and support** consultations.
 
 **My approach:**
-- Time-limited accompaniment
+- Time-limited support
 - Goals defined together from our first meeting
 - Regular check-ins to adjust the work as we go
 
 This framework allows me to see clients quickly and work concretely, regardless of what brings you here. If your situation requires specialised care, I'll refer you to professionals and institutions suited to your needs.
 
-**Format:** I welcome you in person at my Lausanne office or online, according to your preference.
+**Format:** I see you in person at my Lausanne office or online, according to your preference.
 
 
 ## Fees & Insurance
