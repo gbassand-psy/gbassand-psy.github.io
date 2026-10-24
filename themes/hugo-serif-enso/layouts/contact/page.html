@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 
-{{ $contact := .Site.Data.contact }}
+{{ $contact := hugo.Data.contact }}
 {{ $t := index $contact .Site.Language.Lang }}
 
 <div id="contact-hero">

@@ -48,3 +48,4 @@ hugo.linux
 /tmp/
 
 .vscode
+.aider*

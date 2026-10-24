@@ -9,7 +9,7 @@
     {{ range site.Languages }}
       {{ if ne site.Language.Lang .Lang }}
         <li class="menu-item-language">
-          <a href="{{ .Lang | relURL }}">{{ .LanguageName }}</a>
+          <a href="{{ .Lang | relURL }}">{{ .label }}</a>
         </li>
       {{ end }}
     {{ end }}

@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 
-{{ $about := .Site.Data.home_about }}
+{{ $about := hugo.Data.home_about }}
 {{ $t := index $about .Site.Language.Lang }}
 
 {{/* Hero */}}

@@ -16,11 +16,11 @@
 </div>
 
 
-{{if .Site.Data.audiences}}
+{{if hugo.Data.audiences}}
 <div id="strip-audience" class="strip strip-audience">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
-      {{ range index .Site.Data.audiences .Site.Language.Lang }}
+      {{ range index hugo.Data.audiences .Site.Language.Lang }}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature shadow-sm">
           {{ if .image }}
@@ -40,7 +40,7 @@
 </div>
 {{end}}
 
-{{ $disclaimer := .Site.Data.disclaimer }}
+{{ $disclaimer := hugo.Data.disclaimer }}
 {{ $t := index $disclaimer .Site.Language.Lang }}
 {{ with $t }}
 <div class="disclaimer-wrapper">
@@ -74,7 +74,7 @@
 </div>
 {{ end }}
 
-{{ $about := .Site.Data.home_about }}
+{{ $about := hugo.Data.home_about }}
 {{ $t := index $about .Site.Language.Lang }}
 {{with $about}}
 <div id="strip-about" class="strip strip-about">

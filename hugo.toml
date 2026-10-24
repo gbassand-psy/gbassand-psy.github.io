@@ -1,5 +1,5 @@
 baseURL = 'https://enso-psychologie.ch/'
-languageCode = 'fr'
+locale = 'fr'
 title = 'ENSŌ Psychologie'
 themesDir = 'themes'
 theme = 'hugo-serif-enso'
@@ -53,8 +53,8 @@ defaultContentLanguageInSubdir = false
 
 [languages]
   [languages.fr]
-    languageCode = 'fr-CH'
-    languageName = "Français"
+    locale = 'fr-CH'
+    label = "Français"
     weight = 1
     [languages.fr.params.seo]
       meta_og_locale = "fr_CH"
@@ -97,8 +97,8 @@ defaultContentLanguageInSubdir = false
       url = "/contact/"
       weight = 5
 [languages.en]
-    languageCode = "en-GB"
-    languageName = "English"
+    locale = "en-GB"
+    label = "English"
     weight = 2
     [languages.en.params]
       og_locale = "en_GB"
