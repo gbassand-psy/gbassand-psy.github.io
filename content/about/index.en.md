@@ -7,6 +7,6 @@ I'm a licensed Psychologue FSP, working at ENSŌ Psychologie, an independent pra
 
 My clinical orientation is humanistic-existential, enriched with tools from other approaches—including third-wave cognitive-behavioural therapy (CBT) and resource-focused positive psychology. I work within a framework of psychological counselling and support, which is distinct from psychotherapy under Swiss federal law.
 
-Beyond theoretical frameworks, what truly guides my practice is a simple conviction: the relationship comes first and shapes everything else. Each journey is built around the person who walks through my door—and the meeting between us.
+More than just theoretical frameworks, my practice is guided by a core conviction: the human connection is the foundation of everything. I believe that technique only finds its meaning within a genuine encounter. This is why every journey is a shared construction, shaped by who you are and the unique interaction we build together.
 
 I welcome you in person at my Lausanne office or online, in French or English.
